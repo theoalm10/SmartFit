@@ -1,0 +1,267 @@
+
+@font-face {
+  font-family: 'gotham-black';
+  src: url(./fonts/gotham-black.woff2) format('woff2');
+  font-weight: 900;
+  font-style: normal;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.cabecarioEInfomarcoes {
+  margin: 20px;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  margin: 20px;
+}
+
+.comeco {
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+  height: 110px;
+  margin-top: -20px;
+
+}
+
+.logotipo {
+  height: 60px;
+  display: block;
+  margin: auto;
+}
+
+.smart {
+  width: 100px;
+  height: 120px;
+}
+
+
+footer {
+  background-color: #333333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.fit {
+  position: relative;
+  top: -20px;
+  color: white;
+}
+
+.caixaBlack {
+  height: 10px;
+  width: 100px;
+  background-color: #333333;
+}
+
+
+ul {
+  width: 890px;
+  background-color: #dcd8d8;
+  height: 150px;
+  list-style: none;
+  display: flex;
+  gap: 5px;
+
+  overflow: hidden;
+  justify-content: center;
+}
+
+li {
+  margin: 10px;
+
+
+  height: 120px;
+  width: 200px;
+  text-align: center;
+
+
+}
+
+.listadeqp {
+  display: flex;
+  justify-content: center;
+
+}
+
+.imagensdoseqp {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10PX;
+
+}
+
+.fotos {
+  width: 50px;
+  height: 50px;
+}
+
+.nomes {
+  margin: 0px 5px;
+}
+
+.listaDeRecomendacao {
+  display: flex;
+  justify-content: center;
+
+}
+
+.locationdis {
+
+  height: 363px;
+  width: 100%px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.localinfos {
+  padding: 10px;
+  width: 268px;
+  height: 330px;
+  background-color: #dcd8d8;
+  border: #dddada solid 1px;
+  border-radius: 10px;
+}
+
+.abertoparatodos {
+  color: #2FC022;
+  font-weight: 1000;
+
+}
+
+.fechadoparatodos {
+  color: #dc0a17;
+  font-weight: 1000;
+}
+
+.coreqp {
+  color: #333333;
+  font-weight: 1000;
+}
+
+.imgdisponivel {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.imgeqpdisp {
+  width: 50px;
+  height: 50px;
+}
+
+h1{
+  font-family: 'gotham-black';
+}
+
+.horarios {
+  padding: 10px;
+  height: 380px;
+  width: 870px;
+  border: 5px solid #dcd8d8;
+  border-radius: 10px;
+
+
+
+}
+
+#horariosCorTexto {
+  color: #dcd8d8;
+}
+
+.botao {
+  width: 200px;
+  height: 40px;
+  transition: ease-in-out 0.2s;
+  border: 2px solid #dcd8d8;
+  border-radius: 5px;
+  font-weight: 1000;
+  cursor: pointer;
+}
+
+#coramarela {
+  background-color: #FFB612;
+}
+
+.listaDeBotoes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+}
+
+.relogio {
+  width: 40px;
+  height: 40px;
+}
+
+.relogio {
+  display: flex;
+
+}
+
+.texthour {
+  margin-left: 10px;
+  position: relative;
+  top: 10px;
+}
+
+.website {
+  display: flex;
+  flex-direction: column;
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  width: 840px;
+  align-self: center;
+  border: 3px rgb(206, 206, 206) solid;
+  border-radius: 8px;
+  align-items: center;
+  padding: 10px;
+
+}
+
+.posicao {
+  text-align-last: left;
+
+}
+.horas {
+  text-align-last: right;
+  margin-top: -20px;
+}
+
+.resultadosEncontrados {
+  margin-left: 445px;
+}
+
+.alinharCabecario {
+  display: flex;
+  align-self: center;
+  width: 900px;
+}
+
+.cabecarioEInfomarcoes {
+  display: flex;
+  align-self: center;
+  position: relative;
+
+}
+
+#alinharTextosNoHeader {
+  position: relative;
+  left: -20px;
+}
